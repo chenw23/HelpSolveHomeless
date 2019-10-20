@@ -1,0 +1,116 @@
+---
+title: 'Fall Data Challenge Project'
+subtitle: "Help Solve Homeless"
+author: "Chen Wang, Xinyue Tang"
+date: "October 209"
+output: pdf_document
+---
+
+```{r message = FALSE}
+library(tidyverse)
+library(readr)
+set.seed(8888)
+Homeless_Overall <- read_csv("Overall_Homeless.csv")
+Homeless_Individual <- read_csv("Homeless_Individual.csv")
+Homeless_Families <- read_csv("Homeless_in_Families.csv")
+Homeless_Sheltered <- read_csv("Sheltered_Homeless.csv")
+```
+
+# Overall Homeless
+
+## Principal Component Analysis
+
+Body:
+
+
+```{r}
+glimpse(Homeless_Overall)
+```
+
+
+
+```{r}
+Homeless_Overall.pr<-princomp(Homeless_Overall,cor=TRUE)
+summary(Homeless_Overall.pr,loadings=TRUE)
+```
+
+```{r}
+screeplot(Homeless_Overall.pr,type="lines")
+p<-predict(Homeless_Overall.pr)
+```
+
+\pagebreak
+
+# Homeless_Individual
+
+## Principal Component Analysis
+
+Body:
+
+
+```{r}
+glimpse(Homeless_Individual)
+```
+
+
+
+```{r}
+Homeless_Individual.pr<-princomp(Homeless_Individual,cor=TRUE)
+summary(Homeless_Individual.pr,loadings=TRUE)
+```
+
+```{r}
+screeplot(Homeless_Individual.pr,type="lines")
+p<-predict(Homeless_Individual.pr)
+```
+
+\pagebreak
+
+# Homeless_Families
+
+## Principal Component Analysis
+
+Body:
+
+
+```{r}
+glimpse(Homeless_Families)
+```
+
+
+
+```{r}
+Homeless_Families.pr<-princomp(Homeless_Families,cor=TRUE)
+summary(Homeless_Families.pr,loadings=TRUE)
+```
+
+```{r}
+screeplot(Homeless_Families.pr,type="lines")
+p<-predict(Homeless_Families.pr)
+```
+
+\pagebreak
+
+# Homeless_Sheltered
+
+## Principal Component Analysis
+
+Body:
+
+
+```{r}
+glimpse(Homeless_Sheltered)
+```
+
+
+
+```{r}
+Homeless_Sheltered.pr<-princomp(Homeless_Sheltered,cor=TRUE)
+summary(Homeless_Sheltered.pr,loadings=TRUE)
+```
+
+```{r}
+screeplot(Homeless_Sheltered.pr,type="lines")
+p<-predict(Homeless_Sheltered.pr)
+```
+
