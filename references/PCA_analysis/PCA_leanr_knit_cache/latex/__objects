@@ -1,0 +1,41 @@
+used_packages	
+self_defined_functions	mat_show
+data_init_1	count	cy_data	Gene1_a	Gene1_b	grp_a	grp_b	label
+jitter_oneD_data	
+data_init_2	count	cy_data2	Gene2_a	Gene2_b
+jitter_2D_data	
+data_init_3	count	data3	Gene3_a	Gene3_b
+jitter_3D_data_1	colorl	colors
+jitter_3D_data_2	colorl	colors
+jitter_3D_data_3	colorl	colors
+nbt_hiseq_data	data4
+var_sel	data_var3	data_var3_forPCA	data4_use	data4_use_log2	mads
+generate_grp	group	sample
+add_grp	
+quasimPLot	
+p3d_var1	colorA	colorl	colors	pch	pch_l
+pca_cluster	data4_use_log2_label	data4_use_log2_t	pca	percentVar
+pca_cluster_plot	
+pca_cluster_plot_3d	colorA	colorl	colors	pc	pch	pch_l
+test_matrix	mat
+mat_mean_norm	mat_mean_norm
+mat_median_norm	mat_median_norm
+var	
+cov	
+matrix_multiple	
+show_data3	
+scale_data3	data3_center_scale
+cov_data3	data3_center_scale_cov
+eigen_data3	data3_center_scale_cov_eigen
+new_data3	data3_new	label	pc_select
+data3_old_plot	colorl	colors
+data3_prcomp	data3_pca_new	pca_data3
+pca_compare	colorl	colors
+ct_PCA	ct_PCA
+pca_no_scale	data3_pca_noscale_pc	data3_pca_noscale_step
+compare_scale	colorl	colors
+pca_viz	a__	data3_noscale_pca	data3_scale_pca	scree_epi_ns	scree_epi_s	scree_var_ns	scree_var_s	var	var_ns	var_s
+bioplot	
+pca_cluster_show_data	
+define_pca_plot	ct_pca_2d_plot
+compare_pca_scale_log_compute	data4_use_t	log_no_scale_pca_test	log_scale_pca_test	ori_no_scale_pca_test	ori_scale_pca_test

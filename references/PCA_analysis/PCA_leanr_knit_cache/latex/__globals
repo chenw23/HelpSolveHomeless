@@ -1,0 +1,41 @@
+used_packages	library
+self_defined_functions	apply	ncol	paste	paste0	rep	return	sprintf
+data_init_1	$<-	as.data.frame	c	data.frame	headTail	kable	library	paste0	rep	rnorm	row.names<-
+jitter_oneD_data	aes	c	cy_data	element_blank	factor	Gene1	geom_quasirandom	ggplot	Group	library	scale_fill_discrete	theme	xlim	Y	ylim
+data_init_2	as.data.frame	c	data.frame	Gene1_a	Gene1_b	grp_a	grp_b	headTail	kable	label	rnorm	row.names<-	T
+jitter_2D_data	aes	c	cy_data2	element_blank	factor	Gene1	Gene2	geom_point	ggplot	Group	theme	xlim	ylim
+data_init_3	as.data.frame	c	data.frame	Gene1_a	Gene1_b	Gene2_a	Gene2_b	grp_a	grp_b	headTail	kable	label	rnorm	row.names<-	T
+jitter_3D_data_1	$	as.numeric	c	data3	legend	levels	library	scatterplot3d	T
+jitter_3D_data_2	$	as.numeric	c	data3	legend	levels	library	scatterplot3d	T
+jitter_3D_data_3	$	as.numeric	c	data3	legend	levels	library	scatterplot3d	T
+nbt_hiseq_data	corner	dim	kable	library	read.table	T
+var_sel	>	>=	apply	colSums	corner	data4	dim	kable	log2	mad	order	rev	rowSums	t
+generate_grp	data_var3_forPCA	lapply	print	rownames	strsplit	unlist
+add_grp	$<-	as.data.frame	corner	data_var3_forPCA	group	kable
+quasimPLot	aes	c	corner	data_var3_scatter	factor	geom_violin	ggplot	group	kable	library	melt	value	variable	xlab	ylab
+p3d_var1	as.factor	as.numeric	data_var3_forPCA	F	group	legend	length	levels	rainbow	scatterplot3d	T	unique
+pca_cluster	^	$	$<-	as.data.frame	data4_use_log2	group	prcomp	print	str	sum	t	T
+pca_cluster_plot	autoplot	data4_use_log2_label	element_blank	library	paste0	pca	percentVar	round	theme	theme_bw	xlab	ylab
+pca_cluster_plot_3d	$	as.data.frame	as.factor	as.numeric	F	group	legend	length	levels	paste0	pca	percentVar	rainbow	round	scatterplot3d	T	unique
+test_matrix	as.data.frame	colnames<-	letters	matrix	paste0	rnorm	rownames<-
+mat_mean_norm	colMeans	F	mat	ncol	nrow	rep	rep.int	scale	T
+mat_median_norm	apply	mat	mat_mean_norm	median	ncol	nrow	rep	rep.int
+var	apply	mat	var
+cov	cov	mat
+matrix_multiple	as.matrix	cov	crossprod	mat_mean_norm	nrow	t
+show_data3	data3	headTail	kable	library	T
+scale_data3	data3	headTail	kable	scale	T
+cov_data3	cov	data3_center_scale	kable	T
+eigen_data3	$	data3_center_scale_cov	eigen
+new_data3	$	c	colnames<-	data3_center_scale	data3_center_scale_cov_eigen	headTail	kable	paste0	T
+data3_old_plot	$	as.numeric	c	data3	data3_new	legend	levels	par	scatterplot3d	T
+data3_prcomp	$	data3	headTail	kable	prcomp	str	T
+pca_compare	$	as.numeric	c	data3	data3_new	data3_pca_new	legend	levels	par	scatterplot3d	T
+ct_PCA	$	as.matrix	c	colnames<-	crossprod	eigen	list	ncol	nrow	paste0	return	sqrt
+pca_no_scale	$	ct_PCA	data3
+compare_scale	$	as.numeric	c	data3	data3_center_scale	data3_new	data3_pca_noscale_pc	legend	levels	par	scatterplot3d	T
+pca_viz	$	data3	F	fviz_pca_var	fviz_screeplot	get_pca_var	grid.arrange	kable	library	prcomp	scale_color_gradient2	T	theme_minimal
+bioplot	biplot	c	data3_noscale_pca	data3_scale_pca	par
+pca_cluster_show_data	corner	data4_use_log2_label	kable
+define_pca_plot	^	$	autoplot	element_blank	labs	length	paste0	return	round	scale_shape_manual	sum	theme	theme_bw	unique	unlist	xlab	ylab
+compare_pca_scale_log_compute	data4_use	data4_use_log2_t	F	prcomp	t	T

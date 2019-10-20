@@ -1,0 +1,11 @@
+base
+knitr
+psych
+reshape2
+ggplot2
+ggbeeswarm
+scatterplot3d
+useful
+ggfortify
+factoextra
+gridExtra
