@@ -39,6 +39,10 @@ screeplot(Homeless_Overall.pr,type="lines")
 p<-predict(Homeless_Overall.pr)
 ```
 
+## Linear Regression
+
+
+
 \pagebreak
 
 # Homeless_Individual
@@ -63,6 +67,7 @@ summary(Homeless_Individual.pr,loadings=TRUE)
 screeplot(Homeless_Individual.pr,type="lines")
 p<-predict(Homeless_Individual.pr)
 ```
+
 
 \pagebreak
 
@@ -101,7 +106,6 @@ Body:
 ```{r}
 glimpse(Homeless_Sheltered)
 ```
-
 
 
 ```{r}
