@@ -1,6 +1,9 @@
 ---
-title: "Essay"
-author: "Chen Wang, Xinyue Tang"
+title: "A comprehensive research of the social factors that affect homelessness in Los Angeles"
+subtitle: "An essay for Fall Data Challenge: Help Solve Homelessness"
+author:
+- Xinyue Tang^[Undergraduate in Computer Science & Engineering, Department of Computer Science, University of California, Davis. (xiytang@ucdavis.edu)]
+- Chen Wang^[Undergraduate in Computer Engineering, Samueli School of Engineering, University of California, Irvine. (chenw23@uci.edu)]
 date: "10/27/2019"
 output:
   pdf_document:
@@ -9,24 +12,6 @@ output:
     number_sections: true
     keep_tex: true
 ---
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-    
-       
-        
-        
-        
-        
-
-***About the authors***
-
-*Xinyue Tang*: Undergraduate in Computer Science & Engineering, Department of Computer Science, University of California, Davis. Email: [xiytang@ucdavis.edu](mailto:xiytang@ucdavis.edu)
-
-*Chen Wang*: Undergraduate in Computer Engineering, Samueli School of Engineering, University of California, Irvine. Email: [chenw23@uci.edu](mailto:chenw23@uci.edu)
 
 \newpage
 
