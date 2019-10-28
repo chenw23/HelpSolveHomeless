@@ -19,7 +19,7 @@ output:
 
 ## Data Collection
 
-First of all, we have used the statistical data given from U.S. Bureau of Labor Statistics[^1], Zillow Group[^2] and California Department of Public Health[^3] to provide a general impression of trend and status quo of the homeless people and sheltered homeless people in Los Angeles. The figure showing this perspective is in the slides page 2 and 3.
+First of all, we used the statistical data retrieved from U.S. Bureau of Labor Statistics[^1], Zillow Group[^2] and California Department of Public Health[^3] to provide a general impression of trend and status quo of the homeless people and sheltered homeless people in Los Angeles. The figure showing this perspective is in the slides page 2 and 3.
 
 [^1]: U.S. Bureau of Labor Statistics. (2019, September). BLS Data Finder 1.1. Retrieved from https://www.bls.gov/data/.
 
