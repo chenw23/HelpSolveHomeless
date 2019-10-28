@@ -17,14 +17,20 @@ output:
 
 # Statistical Methods
 
-We have used various statistical methods for examining the fact from different perspectives. We used created a summary plot to examine the current circumstances in Los Angeles and used Principal Component Analysis to figure out the reasons.
+We have used various statistical methods for examining the fact from different perspectives. We created a summary plot to examine the current circumstances in Los Angeles and used Principal Component Analysis to figure out the reasons why the homelessness is becoming severe in Los Angeles.
 
 # Summary of the circumstance
 
 ## Data Processing
 
 
-First of all, we have used the statistical data given from someplace to provide a general impression of trend and status quo of the homeless people and sheltered homeless people in Los Angeles. The figure showing this perspective is in the slides No.1.
+First of all, we have used the statistical data given from U.S. Bureau of Labor Statistics[^1], Zillow Group[^2] and California Department of Public Health[^3] to provide a general impression of trend and status quo of the homeless people and sheltered homeless people in Los Angeles. The figure showing this perspective is in the slides page 2 and 3.
+
+[^1]: U.S. Bureau of Labor Statistics. (2019, September). BLS Data Finder 1.1. Retrieved from https://www.bls.gov/data/.
+
+[^2]: Zillow Group. (2019, September). Houses For Rent in Los Angeles CA - 2,651 Homes | Zillow. Retrieved from https://www.zillow.com/los-angeles-ca/rent-houses/.
+
+[^3]: California Department of Public Health. (2019, September). CDPH Home. Retrieved from https://www.cdph.ca.gov/.
 
 ## Analysis for the homeless population circumstances
 
