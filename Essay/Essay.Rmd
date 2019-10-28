@@ -41,7 +41,7 @@ From the figure, we can have a strong impression that in Los Angeles, there are 
 
 ## Factors considered and origin
 
-After having a knowledge of the general fact of homeless people in Los Angeles, we have dug much deeper into the leading facts that make the homeless so severe. We have searched and collected data from somewhere including the Consumption Price Index(CPI), Minimum Wages, Unemployment rate, House rental price and drug addict population in the city of Los Angeles.
+After having a knowledge of the general fact of homeless people in Los Angeles, we have dug much deeper into the leading facts that make the homeless so severe. We have searched and collected data from U.S. Bureau of Labor Statistics[^1] including the Consumption Price Index(CPI), Minimum Wages, Unemployment rate, House rental price and drug addict population in the city of Los Angeles.
 
 ## Principal Component Analysis
 
