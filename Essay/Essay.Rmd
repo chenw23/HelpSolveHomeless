@@ -11,12 +11,24 @@ output:
 ---
 
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+    
+       
+        
+        
+        
+        
 
+***About the authors***
+
+*Xinyue Tang*: Undergraduate in Computer Science & Engineering, Department of Computer Science, University of California, Davis. Email: [xiytang@ucdavis.edu](mailto:xiytang@ucdavis.edu)
+
+*Chen Wang*: Undergraduate in Computer Engineering, Samueli School of Engineering, University of California, Irvine. Email: [chenw23@uci.edu](mailto:chenw23@uci.edu)
+
+\newpage
 
 # Statistical Methods
 
