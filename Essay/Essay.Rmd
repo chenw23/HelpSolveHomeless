@@ -1,0 +1,57 @@
+---
+title: "Essay"
+author: "Chen Wang, Xinyue Tang"
+date: "10/27/2019"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 3
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+# Statistical Methods
+
+We have used various statistical methods for examining the fact from different perspectives. We used created a summary plot to examine the current circumstances in Los Angeles and used Principal Component Analysis to figure out the reasons.
+
+# Summary of the circumstance
+
+## Data Processing
+
+
+First of all, we have used the statistical data given from someplace to provide a general impression of trend and status quo of the homeless people and sheltered homeless people in Los Angeles. The figure showing this perspective is in the slides No.1.
+
+## Analysis for the homeless population circumstances
+
+From the figure, we can have a strong impression that in Los Angeles, there are as many as ¾ of the homeless people that are not sheltered yet. Furthermore, the overall homeless population is increasing significantly in recent years. However, what disappoints us is that what the government can provide for the homeless people - the sheltering- is generally not increasing. They remain the same in the decade and therefore making the contradiction of need for shelter and the providing of shelter even more severe.
+
+
+# Analysis of the factors leading to homeless
+
+## Factors considered and origin
+
+After having a knowledge of the general fact of homeless people in Los Angeles, we have dug much deeper into the leading facts that make the homeless so severe. We have searched and collected data from somewhere including the Consumption Price Index(CPI), Minimum Wages, Unemployment rate, House rental price and drug addict population in the city of Los Angeles.
+
+## Principal Component Analysis
+
+We want to examine whether these factors affect the results and how they affect. Here we implement the Principal Component Analysis method to process the data.
+
+### Processing steps for Principal Component Analysis
+
+For the first step, because the data value differ greatly in terms of units and absolute value, we used Standardization into a range from 0 to 1 so that the different values will be able to compare with each other. After standardization, we imported the data into R and utilized the princomp function to perform the principal component analysis. From the result, we can see that the first component has a Proportion of Variance at 93%, while the first two components have a Proportion of Variance of 97%. This means the factors are in a highly uniform trend and can be reduced to only one or two dimensions. After our looking more thoroughly into the principal component analysis result, we will find out from  the loadings of the factors to the components, the five factors we are observing are having almost equal relation with the dependent variable - the overall homeless population. Therefore, we can conclude that these factors possess a strong effect on the overall homeless people. 
+
+### Reasoning for the result from Principal Component Analysis
+
+The increasing price index and house rental prices  make living expenses even higher for people with lower income and the rising unemployment rate makes more people becoming homeless. What’s more, drug addict, as a common but severe social phenomenon, is also becoming more severe in Los Angeles and we cannot deny the possibility that there are many people fall into homelessness due to addiction to drugs. 
+
+
+# Solutions proposed to the government
+
+In conclusion, we are calling for the government to take various measures to curb this phenomenon from various perspectives. They can enhance the infrastructure construction to provide more shelter for the homeless people to relieve this problem soon. They can also take measures like banning or restricting drugs, providing more temporary working opportunities for the unemployed people, controlling house rental price or providing more alternative housing for low income population and so on. 
+
