@@ -15,10 +15,6 @@ output:
 
 \newpage
 
-# Statistical Methods
-
-We have used various statistical methods for examining the fact from different perspectives. We created a summary plot to examine the current circumstances in Los Angeles and used Principal Component Analysis to figure out the reasons why the homelessness is becoming severe in Los Angeles.
-
 # Overview of homeless population in Los Angeles
 
 ## Data Collection
