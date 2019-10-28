@@ -1,5 +1,5 @@
 ---
-title: "A comprehensive research of the social factors that affect homelessness in Los Angeles"
+title: "A comprehensive research of the social factors that influence homelessness in Los Angeles"
 subtitle: "An essay for Fall Data Challenge: Help Solve Homelessness"
 author:
 - Xinyue Tang^[Undergraduate in Computer Science & Engineering, Department of Computer Science, University of California, Davis. (xiytang@ucdavis.edu)]
@@ -19,7 +19,7 @@ output:
 
 ## Data Collection
 
-First of all, we used the statistical data retrieved from U.S. Bureau of Labor Statistics[^1], Zillow Group[^2] and California Department of Public Health[^3] to provide a general impression of trend and status quo of the homeless people and sheltered homeless people in Los Angeles. The figure showing this perspective is in the slides page 2 and 3.
+We used the statistical data retrieved from U.S. Bureau of Labor Statistics[^1], Zillow Group[^2] and California Department of Public Health[^3] to provide a general impression of trend and status quo of the homeless people and sheltered homeless people in Los Angeles. The figure showing this perspective is in the slides page 2 and 3.
 
 [^1]: U.S. Bureau of Labor Statistics. (2019, September). BLS Data Finder 1.1. Retrieved from https://www.bls.gov/data/.
 
@@ -40,7 +40,7 @@ After having a knowledge of the general fact of homeless people in Los Angeles, 
 
 ## Principal Component Analysis
 
-We want to examine whether these factors affect the results and how they affect. Here we implement the Principal Component Analysis method to process the data.
+We want to examine whether these factors affect the results and how they affect. Here we implement the Principal Component Analysis method to process the data. The factors we consider include CPI, minimum wages, unemployment rate, house rental price and drug addictive population.
 
 ### Processing steps for Principal Component Analysis
 
@@ -48,10 +48,10 @@ For the first step, because the data value differ greatly in terms of units and 
 
 ### Reasoning for the result from Principal Component Analysis
 
-The increasing price index and house rental prices  make living expenses even higher for people with lower income and the rising unemployment rate makes more people becoming homeless. What’s more, drug addict, as a common but severe social phenomenon, is also becoming more severe in Los Angeles and we cannot deny the possibility that there are many people fall into homelessness due to addiction to drugs. 
+The increasing price index and house rental prices make living expenses even higher for people with lower income and the rising unemployment rate may make more people becoming homeless. What’s more, drug addiction, as a common but severe social phenomenon, is also becoming more severe in Los Angeles and we cannot deny the possibility that there are many people fall into homelessness due to addiction to drugs. 
 
 
 # Advice proposed to the government
 
-In conclusion, we are calling for the government to take various measures to curb this phenomenon from various perspectives. They can enhance the infrastructure construction to provide more shelter for the homeless people to relieve this problem soon. They can also take measures like banning or restricting drugs, providing more temporary working opportunities for the unemployed people, controlling house rental price or providing more alternative housing for low income population and so on. 
+In conclusion, we are calling for the government to take various measures to curb this phenomenon from various perspectives. They can enhance the infrastructure construction to provide more shelter for the homeless people to relieve this problem soon. They can also take measures like providing drug rehabilitation programs, providing more temporary working opportunities for the unemployed people, controlling house rental price or providing more alternative housing for low income population and so on. 
 
