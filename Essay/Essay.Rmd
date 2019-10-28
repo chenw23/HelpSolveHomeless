@@ -19,7 +19,7 @@ output:
 
 ## Data Collection
 
-We used the statistical data retrieved from U.S. Bureau of Labor Statistics[^1], Zillow Group[^2] and California Department of Public Health[^3] to provide a general impression of trend and status quo of the homeless people and sheltered homeless people in Los Angeles. The figure showing this perspective is in the slides page 2 and 3.
+We used the statistical data retrieved from U.S. Bureau of Labor Statistics[^1], Zillow Group[^2] and California Department of Public Health[^3] to provide a general impression of trend and status quo of the homeless people and sheltered homeless people in Los Angeles. The figure showing this perspective is on the slides page 2 and 3.
 
 [^1]: U.S. Bureau of Labor Statistics. (2019, September). BLS Data Finder 1.1. Retrieved from https://www.bls.gov/data/.
 
@@ -29,18 +29,18 @@ We used the statistical data retrieved from U.S. Bureau of Labor Statistics[^1],
 
 ## Analysis of the situation of the homeless population
 
-From the figure, we can have a strong impression that in Los Angeles, there are as many as ¾ of the homeless people that are not sheltered yet. Furthermore, the overall homeless population is increasing significantly in recent years. However, what disappoints us is that what the government can provide for the homeless people - the sheltering- is generally not increasing. They remain the same in the decade and therefore making the contradiction of need for shelter and the providing of shelter even more severe.
+From the figure, we can have a strong impression that in Los Angeles, there are as many as ¾ of the homeless people that are not sheltered yet. Furthermore, the overall homeless population is increasing significantly in recent years. However, what disappoints us is that the shelterings the government can provide for the homeless people is generally not increasing. They remain the same in the decade and therefore making the contradiction of shelter need and the providing of shelter even more severe.
 
 
 # Analysis of the factors causing homelessness
 
 ## Factors considered and data source
 
-After having a knowledge of the general fact of homeless people in Los Angeles, we have dug much deeper into the leading facts that make the homeless so severe. We have searched and collected data from U.S. Bureau of Labor Statistics[^1] including the Consumption Price Index(CPI), Minimum Wages, Unemployment rate, House rental price and drug addict population in the city of Los Angeles.
+After having a knowledge of the general fact of homeless people in Los Angeles, we have dug much deeper into the reasons that lead to the severity of homelessness. We have searched and collected data from U.S. Bureau of Labor Statistics[^1] including the Consumption Price Index(CPI), Minimum Wages, Unemployment rate, House rental price and drug addict population in the city of Los Angeles.
 
 ## Principal Component Analysis
 
-We want to examine whether these factors affect the results and how they affect. Here we implement the Principal Component Analysis method to process the data. The factors we consider include CPI, minimum wages, unemployment rate, house rental price and drug addictive population.
+We want to examine whether and how these factors affect the results. Here we implement the Principal Component Analysis method to process the data. The factors we consider include CPI, minimum wages, unemployment rate, house rental price and drug addictive population.
 
 ### Processing steps for Principal Component Analysis
 
@@ -48,10 +48,10 @@ For the first step, because the data value differ greatly in terms of units and 
 
 ### Reasoning for the result from Principal Component Analysis
 
-The increasing price index and house rental prices make living expenses even higher for people with lower income and the rising unemployment rate may make more people becoming homeless. What’s more, drug addiction, as a common but severe social phenomenon, is also becoming more severe in Los Angeles and we cannot deny the possibility that there are many people fall into homelessness due to addiction to drugs. 
+The increasing price index and house rental prices make living expenses even higher for people with lower income and the rising unemployment rate may make more people homeless. What’s more, drug addiction, as a common but severe social phenomenon, is also becoming more severe in Los Angeles and we cannot deny the possibility that there are many people who fall into homelessness due to drug addiction. 
 
 
 # Advice proposed to the government
 
-In conclusion, we are calling for the government to take various measures to curb this phenomenon from various perspectives. They can enhance the infrastructure construction to provide more shelter for the homeless people to relieve this problem soon. They can also take measures like providing drug rehabilitation programs, providing more temporary working opportunities for the unemployed people, controlling house rental price or providing more alternative housing for low income population and so on. 
+In conclusion, we are calling for the government to take various measures to curb this phenomenon both from the source and from the result. They can enhance the infrastructure construction to provide more shelter for the homeless people to relieve this problem soon. They can also take measures like providing drug rehabilitation programs, providing more temporary working opportunities for the unemployed people, controlling house rental price or providing more alternative housing for low income population and so on. 
 
