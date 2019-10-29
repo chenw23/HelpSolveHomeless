@@ -29,10 +29,10 @@ We used the statistical data retrieved from U.S. Bureau of Labor Statistics[^1],
 
 ## Analysis of the situation of the homeless population
 
-From the figure, we can have a strong impression that in Los Angeles, there are as many as ¾ of the homeless people that are not sheltered yet. Furthermore, the overall homeless population is increasing significantly in recent years. However, what disappoints us is that the shelterings the government can provide for the homeless people is generally not increasing. They remain the same in the decade and therefore making the contradiction of shelter need and the providing of shelter even more severe.
+From the figure, we can have a strong impression that in Los Angeles, there are as many as ¾ of the homeless people that are not sheltered yet. Furthermore, the overall homeless population is increasing significantly in recent years. However, what disappoints us is that the shelterings that government can provide for the homeless people is generally not increasing. They remain the same in the decade and therefore making the contradiction of shelter need and the providing of shelter even more severe.
 
 
-# Analysis of the factors causing homelessness
+# Analysis of the factors influencing homelessness
 
 ## Factors considered and data source
 
