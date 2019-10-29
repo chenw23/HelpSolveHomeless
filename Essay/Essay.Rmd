@@ -36,15 +36,15 @@ From the figure, we can have a strong impression that in Los Angeles, there are 
 
 ## Factors considered and data source
 
-After having a knowledge of the general fact of homeless people in Los Angeles, we have dug much deeper into the reasons that lead to the severity of homelessness. We have searched and collected data from U.S. Bureau of Labor Statistics[^1] including the Consumption Price Index(CPI), Minimum Wages, Unemployment rate, House rental price and drug addict population in the city of Los Angeles.
+After having a knowledge of the general fact of homeless people in Los Angeles, we have dug much deeper into the reasons that lead to the severity of homelessness. We have searched and collected data from U.S. Bureau of Labor Statistics[^1] including the Consumption Price Index(CPI), minimum wages, unemployment rate, house rental price and drug addict population in the city of Los Angeles.
 
 ## Principal Component Analysis
 
-We want to examine whether and how these factors affect the results. Here we implement the Principal Component Analysis method to process the data. The factors we consider include CPI, minimum wages, unemployment rate, house rental price and drug addictive population.
+We want to examine whether and how these factors affect the results. Here we implement the Principal Component Analysis method to process the data.
 
 ### Processing steps for Principal Component Analysis
 
-For the first step, because the data value differ greatly in terms of units and absolute value, we used Standardization into a range from 0 to 1 so that the different values will be able to compare with each other. After standardization, we imported the data into R and utilized the princomp function to perform the principal component analysis. From the result, we can see that the first component has a Proportion of Variance at 93%, while the first two components have a Proportion of Variance of 97%. This means the factors are in a highly uniform trend and can be reduced to only one or two dimensions. After our looking more thoroughly into the principal component analysis result, we will find out from  the loadings of the factors to the components, the five factors we are observing are having almost equal relation with the dependent variable - the overall homeless population. Therefore, we can conclude that these factors possess a strong effect on the overall homeless people. 
+For the first step, because the data value differ greatly in terms of units and absolute value, we used Standardization into a range from 0 to 1 so that the different values will be able to compare with each other. After standardization, we imported the data into R and utilized the `princomp` function to perform the principal component analysis. From the result, we can see that the first component has a Proportion of Variance at 93%, while the first two components have a Proportion of Variance of 97%. This means the factors are in a highly uniform trend and can be reduced to only one or two dimensions. After our looking more thoroughly into the principal component analysis result, we will find out from  the loadings of the factors to the components, the five factors we are observing are having almost equal relation with the dependent variable - the overall homeless population. Therefore, we can conclude that these factors possess a strong effect on the overall homeless people. 
 
 ### Reasoning for the result from Principal Component Analysis
 
